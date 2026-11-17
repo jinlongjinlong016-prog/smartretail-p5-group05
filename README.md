@@ -78,6 +78,6 @@ Quy tắc: mỗi thành viên ≥ 2 task code và ≥ 1 task khác; reviewer kh�
 
 | Công cụ | Dùng cho việc gì | Phần nào |
 |---|---|---|
-| Claude (Anthropic) | Soạn khung repo, README, mẫu test case, bản nháp flowchart + pseudocode `similarity()` | T01, T06 (flowchart) |
+
 
 Nguồn tham khảo: đề P5, hướng dẫn nộp bài và hướng dẫn GitHub của môn học.
