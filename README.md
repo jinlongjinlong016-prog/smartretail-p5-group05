@@ -78,6 +78,6 @@ Quy tắc: mỗi thành viên ≥ 2 task code và ≥ 1 task khác; reviewer kh�
 
 | Công cụ | Dùng cho việc gì | Phần nào |
 |---|---|---|
-
+| Claude (Anthropic) | Hỗ trợ dựng khung thư mục và README theo hướng dẫn môn học. Code các task do thành viên tự viết | T01 |
 
 Nguồn tham khảo: đề P5, hướng dẫn nộp bài và hướng dẫn GitHub của môn học.
