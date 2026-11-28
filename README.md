@@ -57,8 +57,8 @@ bin/p5 data/full P001 S001 3 --brand Nike
 | ID | Task | Function / file | Assignee | Reviewer | Flowchart | PR |
 |---|---|---|---|---|---|---|
 | T01 | Repo skeleton + README | `.gitignore`, PR template, `README.md` | Jin Long | Tố Châu | not needed | #1 |
-| T02 | Struct + đọc rating | `struct Product`, `struct StockItem`, `toTenths()` | Tố Châu | Quang Linh | yes | |
-| T03 | Đọc products.csv | `loadProducts()` | Jin Long | Tố Châu | yes | |
+| T02 | Struct + đọc rating | `struct Product`, `struct StockItem`, `toTenths()` | Tố Châu | Quang Linh | yes | #2 |
+| T03 | Đọc products.csv | `loadProducts()`, `splitLine()`, `isDigits()`, `indexOfId()` | Jin Long | Tố Châu | yes | #3 |
 | T04 | Đọc inventory.csv + tra tồn kho | `loadInventory()`, `stockOf()` | Quang Linh | Jin Long | yes | |
 | T05 | Tìm sản phẩm (đệ quy) | `sortProductsById()`, `findProduct()` – binary search | Quang Linh | Jin Long | yes | |
 | T06 | Điểm tương tự (hàm lõi) | `similarity()` | Tố Châu | Quang Linh | yes | |
@@ -78,6 +78,7 @@ Quy tắc: mỗi thành viên ≥ 2 task code và ≥ 1 task khác; reviewer kh�
 
 | Công cụ | Dùng cho việc gì | Phần nào |
 |---|---|---|
-| Claude (Anthropic) | Hỗ trợ dựng khung thư mục và README theo hướng dẫn môn học. Code các task do thành viên tự viết | T01 |
+| Claude (Anthropic) | Hỗ trợ dựng khung thư mục và README theo hướng dẫn môn học | T01 |
+| Claude (Anthropic) | Viết flowchart, pseudocode và code `loadProducts()`, `splitLine()`, `isDigits()`, `indexOfId()`; Jin Long đọc hiểu, chạy thử trên sample/full/edge và giải thích được từng dòng | T03 |
 
 Nguồn tham khảo: đề P5, hướng dẫn nộp bài và hướng dẫn GitHub của môn học.
